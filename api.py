@@ -1,7 +1,7 @@
-from services import *
-from xbmcgui import *
+import services
 
-Meiju = MeiJu()
+
+Meiju = services.MeiJu()
 
 
 def search(page, **kwargs):
